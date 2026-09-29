@@ -1,10 +1,17 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<<<<<<< HEAD
 <%  request.setAttribute("currentPage", "trangchu"); %>
+=======
+<%
+    request.setAttribute("currentPage", "trangchu");
+%>
+>>>>>>> 9378cfb910b6f7409d5e26cb8ccecc69f4260abc
 <!DOCTYPE html>
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <title>CINE+ | Đặt Vé Xem Phim</title>
     <%@ include file="../common/header.jsp" %>
 </head>
@@ -85,15 +92,27 @@
     </div>
 
     <!-- Dots -->
+=======
+    <title>CINE+ | Trang Chủ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800;900&display=swap">
+    <%@ include file="../common/header.jsp" %>
+</head>
+<body>
+>>>>>>> 9378cfb910b6f7409d5e26cb8ccecc69f4260abc
     <div class="hero-dots">
         <button class="hero-dot active" onclick="goSlide(0)"></button>
         <button class="hero-dot" onclick="goSlide(1)"></button>
     </div>
 </section>
 
+<<<<<<< HEAD
 <div class="glow-divider"></div>
 
 <!-- ══════════ DANH SÁCH PHIM ══════════ -->
+=======
+<div class="glow-div"></div>
+>>>>>>> 9378cfb910b6f7409d5e26cb8ccecc69f4260abc
 <section class="section">
     <div class="section-header">
         <div class="section-title">
@@ -107,6 +126,7 @@
         </div>
         <a href="#" class="section-link">Xem tất cả →</a>
     </div>
+<<<<<<< HEAD
 
     <div class="movie-grid">
 
@@ -124,6 +144,26 @@
                     <svg width="40" height="40" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24">
                         <circle cx="12" cy="12" r="10"/>
                         <polygon points="10 8 16 12 10 16 10 8" fill="white" stroke="none"/>
+=======
+                </svg>
+            </div>
+            Danh Sách Phim
+        </div>
+<div class="movie-grid">
+    <div class="movie-card">
+        <div class="movie-thumb">
+            <div class="mthumb-inner" style="background:linear-gradient(160deg,#0f1623,#1a2a4a,#0a0e1a);">🗡️</div>
+            <div class="movie-badge">Hành động</div>
+            <div class="movie-rating">⭐ 8.7</div>
+            <div class="movie-duration">118 phút</div>
+            <div class="movie-overlay">
+                <svg width="40" height="40" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8" fill="white" stroke="none"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+>>>>>>> 9378cfb910b6f7409d5e26cb8ccecc69f4260abc
                     </svg>
                 </div>
             </div>
@@ -137,6 +177,7 @@
         <!-- Phim 2: Nhiệm Vụ Bất Khả Thi -->
         <div class="movie-card">
             <div class="movie-thumb">
+<<<<<<< HEAD
                 <img src="https://image.tmdb.org/t/p/w342/NNxYkU70HPurnNCSiCjYAmacwm.jpg"
                      alt="Nhiệm Vụ Bất Khả Thi"
                      onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
@@ -148,6 +189,21 @@
                     <svg width="40" height="40" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24">
                         <circle cx="12" cy="12" r="10"/>
                         <polygon points="10 8 16 12 10 16 10 8" fill="white" stroke="none"/>
+=======
+<div class="movie-card">
+        <div class="movie-thumb">
+            <div class="mthumb-inner" style="background:linear-gradient(160deg,#0d1e30,#1a3552,#0d1825);">🕵️</div>
+            <div class="movie-badge">Trinh thám</div>
+            <div class="movie-rating">⭐ 8.5</div>
+            <div class="movie-duration">135 phút</div>
+            <div class="movie-overlay">
+                <svg width="40" height="40" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8" fill="white" stroke="none"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+>>>>>>> 9378cfb910b6f7409d5e26cb8ccecc69f4260abc
                     </svg>
                 </div>
             </div>
@@ -161,6 +217,7 @@
         <!-- Phim 3: Yêu Lại Từ Đầu -->
         <div class="movie-card">
             <div class="movie-thumb">
+<<<<<<< HEAD
                 <img src="https://image.tmdb.org/t/p/w342/qhb1qOilapbapxWQn9jtRCMwXJF.jpg"
                      alt="Yêu Lại Từ Đầu"
                      onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
@@ -172,6 +229,21 @@
                     <svg width="40" height="40" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24">
                         <circle cx="12" cy="12" r="10"/>
                         <polygon points="10 8 16 12 10 16 10 8" fill="white" stroke="none"/>
+=======
+<div class="movie-card">
+        <div class="movie-thumb">
+            <div class="mthumb-inner" style="background:linear-gradient(160deg,#1e0a22,#3d1a45,#1a0a20);">💕</div>
+            <div class="movie-badge">Tình cảm</div>
+            <div class="movie-rating">⭐ 8.2</div>
+            <div class="movie-duration">112 phút</div>
+            <div class="movie-overlay">
+                <svg width="40" height="40" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8" fill="white" stroke="none"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+>>>>>>> 9378cfb910b6f7409d5e26cb8ccecc69f4260abc
                     </svg>
                 </div>
             </div>
@@ -185,6 +257,7 @@
         <!-- Phim 4: Inside Out 2 -->
         <div class="movie-card">
             <div class="movie-thumb">
+<<<<<<< HEAD
                 <img src="https://image.tmdb.org/t/p/w342/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg"
                      alt="Inside Out 2"
                      onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
@@ -196,6 +269,21 @@
                     <svg width="40" height="40" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24">
                         <circle cx="12" cy="12" r="10"/>
                         <polygon points="10 8 16 12 10 16 10 8" fill="white" stroke="none"/>
+=======
+<div class="movie-card">
+        <div class="movie-thumb">
+            <div class="mthumb-inner" style="background:linear-gradient(160deg,#0a1e10,#1a4228,#0a1a10);">😊</div>
+            <div class="movie-badge">Hoạt hình</div>
+            <div class="movie-rating">⭐ 8.9</div>
+            <div class="movie-duration">100 phút</div>
+            <div class="movie-overlay">
+                <svg width="40" height="40" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8" fill="white" stroke="none"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+>>>>>>> 9378cfb910b6f7409d5e26cb8ccecc69f4260abc
                     </svg>
                 </div>
             </div>
@@ -209,6 +297,7 @@
         <!-- Promo Card -->
         <div class="promo-card">
             <div>
+<<<<<<< HEAD
                 <div class="promo-icon">🍿</div>
                 <div class="promo-title">Ưu Đãi<br>Đặc Biệt</div>
                 <div class="promo-desc">Giảm giá đến <strong style="color:var(--red)">50%</strong> cho thành viên mới đăng ký hôm nay!</div>
@@ -216,8 +305,19 @@
             <button class="btn-promo">Khám phá →</button>
         </div>
 
+=======
+<div class="promo-card">
+    <div>
+        <div class="promo-icon">🍿</div>
+        <div class="promo-title">Ưu Đãi<br>Đặc Biệt</div>
+        <div class="promo-desc">Giảm giá đến <strong style="color:var(--red)">50%</strong> cho thành viên mới đăng ký hôm nay!</div>
+>>>>>>> 9378cfb910b6f7409d5e26cb8ccecc69f4260abc
     </div>
+    <button class="btn-promo">Khám phá →</button>
+</div>
+</div>
 </section>
+<<<<<<< HEAD
 
 <!-- ══════════ 4 BƯỚC ĐẶT VÉ ══════════ -->
 <div class="steps-section">
@@ -300,5 +400,8 @@
     }, 5000);
 </script>
 
+=======
+<div class="glow-divider"></div>
+>>>>>>> 9378cfb910b6f7409d5e26cb8ccecc69f4260abc
 </body>
 </html>
